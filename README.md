@@ -1,1 +1,2 @@
-# PP2
+# lab_1_git
+GitHowTo
