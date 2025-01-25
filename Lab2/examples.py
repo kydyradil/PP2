@@ -104,14 +104,11 @@ car = {
 "model": "Camry",
 "year": 2018
 }
-
 x = car.keys()
 
 print(x) #before the change
 
-#If ... Else 
-
 car["color"] = "white"
-
 print(x) #after the change
 
+#If ... Else 
