@@ -1,4 +1,12 @@
+#Booleans 
+print(6 > 3)
+print(5 == 7)
+print(9 < 4)
 
+#2
+a = 500
+b = 44
+if b > a:
   print("b is greater than a")
 else:
   print("b is not greater than a")
