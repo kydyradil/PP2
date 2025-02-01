@@ -123,5 +123,53 @@ if Y > X:
   print("Y is greater than X")
 elif X == Y:
   print("X and Y are equal")
+#While Loops
+i = 1
+while i < 4:
+  print(i)
+  i += 1
+
+i = 1
+while i < 5:
+  print(i)
+  if i == 2:
+    break
+  i += 1
+
+i = 0
+while i < 5:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+  
+#For Loops
+
+fruits = ["orange", "qiwi", "tomato"]
+for x in fruits:
+  print(x)
+
+for x in range(2, 30, 3):
+  print(x)
+
+fruits = ["cherry", "pear", "qiwi"]
+for x in fruits:
+  print(x)
+  if x == "pear":
+    break
+
+for x in range(4):
+  print(x)
+else:
+  print("Finally finished!")
+
+adj = ["green", "big", "tasty"]
+fruits = ["apple", "cherry", "qiwi"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+
 
 
