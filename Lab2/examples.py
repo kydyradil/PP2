@@ -112,3 +112,16 @@ car["color"] = "white"
 print(x) #after the change
 
 #If ... Else 
+X = 64
+Y = 256
+if Y > X:
+  print("Y is greater than X")
+
+X = 77
+Y = 77
+if Y > X:
+  print("Y is greater than X")
+elif X == Y:
+  print("X and Y are equal")
+
+
