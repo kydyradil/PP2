@@ -32,4 +32,4 @@ while not done:
     screen.fill(background_color)
     pygame.draw.circle(screen, ball_color, (ball_x, ball_y), ball_radius)
     pygame.display.flip()
-    clock.tick(10)
+    clock.tick(60)
