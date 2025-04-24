@@ -93,8 +93,8 @@ coor_body = [
 pygame.init()
 
 #game variables
-width = 600
-height = 400
+width = 800
+height = 600
 screen = pygame.display.set_mode((width,height))
 done = False
 
